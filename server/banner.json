@@ -1,0 +1,91 @@
+{
+    "banners": [
+      {
+        "id": "flash-sale-2025",
+        "type": "default",
+        "priority": 10,
+        "validFrom": "2025-06-01T00:00:00Z",
+        "validUntil": "2025-06-07T23:59:59Z",
+        "targetGroup": "all",
+        "config": {
+          "type": "Container",
+          "padding": "16",
+          "child": {
+            "type": "Card",
+            "elevation": "4",
+            "child": {
+              "type": "Column",
+              "children": [
+                {
+                  "type": "Image",
+                  "src": "https://via.placeholder.com/400x200/FF6B6B/FFFFFF?text=FLASH+SALE",
+                  "height": "200",
+                  "fit": "cover"
+                },
+                {
+                  "type": "Padding",
+                  "padding": "16",
+                  "child": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "data": "Flash Sale - 50% Off!",
+                        "style": {
+                          "fontSize": "24",
+                          "fontWeight": "bold"
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": "8"
+                      },
+                      {
+                        "type": "Text",
+                        "data": "Limited time offer on selected items",
+                        "style": {
+                          "fontSize": "16",
+                          "color": "#666666"
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": "16"
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "ElevatedButton",
+                            "onPressed": {
+                              "action": "navigate",
+                              "url": "/sale"
+                            },
+                            "child": {
+                              "type": "Text",
+                              "data": "Shop Now"
+                            }
+                          },
+                          {
+                            "type": "TextButton",
+                            "onPressed": {
+                              "action": "dismiss"
+                            },
+                            "child": {
+                              "type": "Text",
+                              "data": "Dismiss"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+  "type": "container",
+  "padding": {
+    "left": 16,
+    "right": 16,
+    "top": 12,
+    "bottom": 12
+  },
+  "decoration": {
+    "color": "#F5F5F5",
+    "borderRadius": 8
+  },
+  "child": {
+    "type": "text",
+    "data": "✨ Minimal Banner - Simple & Clean",
+    "style": {
+      "fontSize": 18,
+      "fontWeight": "w600",
+      "color": "#333333"
+    }
+  }
+} 

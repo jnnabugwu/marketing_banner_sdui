@@ -1,0 +1,90 @@
+{
+  "type": "container",
+  "padding": {
+    "left": 20,
+    "right": 20,
+    "top": 20,
+    "bottom": 20
+  },
+  "child": {
+    "type": "card",
+    "elevation": 8,
+    "child": {
+      "type": "container",
+      "padding": {
+        "left": 24,
+        "right": 24,
+        "top": 32,
+        "bottom": 32
+      },
+      "child": {
+        "type": "column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "text",
+            "data": "🚀 Hero Banner",
+            "style": {
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "color": "#2E7D32"
+            }
+          },
+          {
+            "type": "sizedBox",
+            "height": 16
+          },
+          {
+            "type": "text",
+            "data": "Experience the power of Server-Driven UI",
+            "style": {
+              "fontSize": 18,
+              "color": "#424242",
+              "fontWeight": "w500"
+            }
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "text",
+            "data": "Build dynamic, real-time interfaces that update instantly without app store releases!",
+            "style": {
+              "fontSize": 16,
+              "color": "#666666",
+              "height": 1.5
+            }
+          },
+          {
+            "type": "sizedBox",
+            "height": 32
+          },
+          {
+            "type": "container",
+            "padding": {
+              "left": 24,
+              "right": 24,
+              "top": 12,
+              "bottom": 12
+            },
+            "decoration": {
+              "color": "#2E7D32",
+              "borderRadius": 25
+            },
+            "child": {
+              "type": "text",
+              "data": "Get Started",
+              "style": {
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+} 
